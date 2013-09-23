@@ -54,10 +54,12 @@ body {
 	font-size: 16px;
 	line-height: 1.5em;
 	color: #444;
+	background-color: #f8f8f8;
+	background-image: url("../img/cubes.png")
 	}
 #header, #wrapper, #controls ul {
-	width: 750px;
-	margin: 0 0 0 185px;
+	width: 80%;
+	margin: 0 auto;
 	padding: 0 20px;
 	}
 
@@ -83,7 +85,7 @@ h1, h2, h3, h4, h5, h6 {
 	}
 h1, h2, h3 {
 	font-size: 1.5em;
-	line-height: 1em;
+	line-height: 1.4em;
 	margin: 1em 0;
 	}
 p, h4, h5, h6 {
@@ -96,12 +98,12 @@ blockquote {
 	}
 
 .date {
-	color: #DDD;
+	color: #C45F5F;
 	float: left;
 	clear: both;
 	width: 160px;
 	font-size: 1.5em;
-	line-height: 1em;
+	line-height: 1.4em;
 	margin: 0 20px 1em 0;
 	}
 .post {
@@ -227,6 +229,7 @@ form.inline_edit {
 	list-style: none;
 	margin: 0 0 0 3em;
 	padding: 0;
+	font-family: sans-serif;
 	}
 #nav li {
 	float: left;
@@ -239,8 +242,8 @@ form.inline_edit {
 	background-color: #DDD;
 	}
 #nav li.selected a {
-	background-color: #000;
-	color: #FFF;
+	background-color: #FF9206;
+	color: #F8F8F8;
 	}
 #nav li.ephemeral.selected a {
 	background-color: #FFF;
@@ -260,6 +263,12 @@ form.inline_edit {
 	font-size: 1em;
 	margin: .3em 0;
 	color: #DDD;
+	}
+
+#header #site_title { color: #C0A160; }
+#header #site_subtitle { 
+	color: #BD9E77;
+	font-weight: lighter;
 	}
 
 #content {

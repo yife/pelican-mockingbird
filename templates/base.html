@@ -36,10 +36,10 @@
                 <li {%- if output_file == "archives.html" %} class="selected"{% endif %}><a href="{{ SITEURL }}/archives.html">Archives</a></li>
             </ul>
             <div class="header_box">
-                <h1><a href="{{ SITEURL }}">{{ SITENAME }}</a></h1>
+                <h1 id="site_title"><a href="{{ SITEURL }}">{{ SITENAME }}</a></h1>
                 {%- if SITESUBTITLE %}
 
-                <h2>{{ SITESUBTITLE }}</h2>
+                <h2 id="site_subtitle">{{ SITESUBTITLE }}</h2>
                 {%- endif %}
 
             </div>
@@ -52,10 +52,9 @@
 
                 <div class="clear"></div>
                 <div id="footer">
-                    <p>
-                    Mockingbird theme by <a href="http://nevanscott.com/">Nevan Scott</a>
-                    &middot;
+                <p>
                     <a class="atom" href="{{ FEED_DOMAIN }}/{{ FEED_ALL_ATOM }}">Feed</a>
+                </p>
                 </div>
             </div>
             <div class="clear"></div>

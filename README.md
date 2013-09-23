@@ -1,3 +1,7 @@
+Modified to custimize css to fit my taste
+
+----
+
 ![screenshot](https://raw.github.com/wrl/pelican-mockingbird/master/screenshot.png)
 
 # mockingbird for pelican
