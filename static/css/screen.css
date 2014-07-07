@@ -42,7 +42,7 @@ table {
 /* Mockingbird Theme by Nevan Scott nevanscott.com */
 
 body {
-	font-family: Georgia, serif;
+	font-family: "Shuei Mincho M", Georgia, serif;
 	font-size: 16px;
 	line-height: 1.5em;
 	color: #444;
@@ -72,7 +72,7 @@ ol {
         }
 
 h1, h2, h3, h4, h5, h6 {
-	font-family: sans-serif;
+	font-family: "Shuei MaruGo L", sans-serif;
 	font-weight: bold;
 	}
 h1, h2, h3 {
@@ -91,7 +91,7 @@ blockquote{
   position: relative;
 
   /*Font*/
-  font-family: Georgia, serif;
+  font-family: 'Reimin Y10 Light', Georgia, serif;
   font-size: 16px;
   line-height: 1.2;
   color: #666;
@@ -104,7 +104,6 @@ blockquote{
   /*Box Shadow - (Optional)*/
   box-shadow: 2px 2px 15px #ccc;
 }
-
 blockquote::before{
   content: "\201C"; /*Unicode for Left Double Quote*/
 
@@ -141,6 +140,10 @@ blockquote em{
   font-style: italic;
 }
 
+blockquote cite{
+  font-size: smaller;
+}
+
 .date {
 	color: #C45F5F;
 	float: left;
@@ -154,8 +157,13 @@ blockquote em{
 	margin: 0 0 4.5em 180px;
 	}
 .post.archives {
+    margin-top: 1.8em;
 	margin-bottom: 1.5em;
+    font-family: "Shuei MaruGo L";
 	}
+.post.archives li {
+    list-style-type: none;
+}
 .post.pinned {
 	clear: both;
 	margin-left: 0;
@@ -281,6 +289,7 @@ form.inline_edit {
 #nav a {
 	display: block;
 	padding: 4.5em 10px 10px 10px;
+    font-family: "Shuei MaruGo L", sans-serif;
 	}
 #nav a:hover {
 	background-color: #DDD;
